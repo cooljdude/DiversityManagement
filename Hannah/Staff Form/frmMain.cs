@@ -265,9 +265,9 @@ public partial class frmMain : Form
             openDatabaseConnection();
             mDB.Open();
             OleDbCommand cmd;
-            sql = "INSERT INTO Staff (First Name, Last Name, Title, Email, Phone, Fax, Office) VALUES (" +
-                clsSQL.ToSql(txtFirstName.Text) + ", " +
+            sql = "INSERT INTO Staff (LastName, FirstName, Title, Email, Phone, Fax, Office) VALUES (" +
                 clsSQL.ToSql(txtLastName.Text) + ", " +
+                clsSQL.ToSql(txtFirstName.Text) + ", " +
                 clsSQL.ToSql(title) + ", " +
                 clsSQL.ToSql(email) + ", " +
                 clsSQL.ToSql(phone) + ", " +
@@ -277,13 +277,13 @@ public partial class frmMain : Form
             cmd.ExecuteNonQuery();
 
             // Lookup ID of client record just added to get ID.
-            sql = "SELECT * FROM Staff WHERE First Name = " + clsSQL.ToSql(txtFirstName.Text) +
+            sql = "SELECT * FROM Staff WHERE FirstName = " + clsSQL.ToSql(txtFirstName.Text) +
                 " AND Last Name = " + clsSQL.ToSql(txtLastName.Text);
             OleDbDataReader rdr;
             cmd = new OleDbCommand(sql, mDB);
             rdr = cmd.ExecuteReader();
             rdr.Read();
-            int staffID = (int)rdr["ID"];
+            int staffID = (int)rdr["StaffID"];
             rdr.Close();
         }
         catch (Exception ex)
@@ -337,7 +337,7 @@ public partial class frmMain : Form
             openDatabaseConnection();
             mDB.Open();
             OleDbCommand cmd;
-            sql = "DELETE FROM Staff WHERE ID = " + clsSQL.ToSql(temp.ID);
+            sql = "DELETE FROM Staff WHERE StaffID = " + clsSQL.ToSql(temp.StaffID);
             cmd = new OleDbCommand(sql, mDB);
             cmd.ExecuteNonQuery();
         }
@@ -424,14 +424,14 @@ public partial class frmMain : Form
             openDatabaseConnection();
             mDB.Open();
             OleDbCommand cmd;
-            sql = "UPDATE Staff SET First Name = " + clsSQL.ToSql(txtFirstName.Text) +
-                ", Last Name = " + clsSQL.ToSql(txtLastName.Text) +
+            sql = "UPDATE Staff SET FirstName = " + clsSQL.ToSql(txtFirstName.Text) +
+                ", LastName = " + clsSQL.ToSql(txtLastName.Text) +
                 ", Title = " + clsSQL.ToSql(title) +
                 ", Email = " + clsSQL.ToSql(email) +
                 ", Phone = " + clsSQL.ToSql(phone) +
                 ", Fax = " + clsSQL.ToSql(fax) +
                 ", Office = " + clsSQL.ToSql(office) +
-                " WHERE ID = " + clsSQL.ToSql(temp.ID);
+                " WHERE StaffID = " + clsSQL.ToSql(temp.StaffID);
             cmd = new OleDbCommand(sql, mDB);
             cmd.ExecuteNonQuery();
 
@@ -497,9 +497,9 @@ public partial class frmMain : Form
             while (rdr.Read() == true)
             {
                 // Add the data from the line just read to the next array element, making sure to get the ID.
-                member = new clsStaff((int)rdr["ID"],
-                    (string)rdr["First Name"],
-                    (string)rdr["Last Name"],
+                member = new clsStaff((int)rdr["StaffID"],
+                    (string)rdr["LastName"],
+                    (string)rdr["FirstName"],
                     (string)rdr["Title"],
                     (string)rdr["Email"],
                     (string)rdr["Phone"],
@@ -533,17 +533,17 @@ public partial class frmMain : Form
         // If both first and last names are given, sort the names and then do a binary search.
         if ((txtFirstName.Text != "") && (txtLastName.Text != ""))
         {
-            loadStaff("SELECT * FROM Staff WHERE First Name=" + clsSQL.ToSql(txtFirstName.Text) + " AND Last Name=" + clsSQL.ToSql(txtLastName.Text));
+            loadStaff("SELECT * FROM Staff WHERE FirstName=" + clsSQL.ToSql(txtFirstName.Text) + " AND LastName=" + clsSQL.ToSql(txtLastName.Text));
             displayData();
         }
         else if (txtLastName.Text != "")
         {
-            loadStaff("SELECT * FROM Staff WHERE Last Name=" + clsSQL.ToSql(txtLastName.Text));
+            loadStaff("SELECT * FROM Staff WHERE LastName=" + clsSQL.ToSql(txtLastName.Text));
             displayData();
         }
         else if (txtFirstName.Text != "")
         {
-            loadStaff("SELECT * FROM Staff WHERE First Name=" + clsSQL.ToSql(txtFirstName.Text));
+            loadStaff("SELECT * FROM Staff WHERE FirstName=" + clsSQL.ToSql(txtFirstName.Text));
             displayData();
         }
         else // search is for title

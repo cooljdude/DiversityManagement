@@ -1,12 +1,11 @@
 ﻿using System;
-
 public class clsStaff
 {
     // List of the class data members.
 
-    private int mID;
-    private string mFName;
+    private int mStaffID;
     private string mLName;
+    private string mFName;
     private string mTitle;
     private string mEmail;
     private string mPhone;
@@ -17,8 +16,8 @@ public class clsStaff
 
     public clsStaff()
     {
-        mFName = "";
         mLName = "";
+        mFName = "";
         mTitle = "";
         mEmail = "";
         mPhone = "";
@@ -26,10 +25,10 @@ public class clsStaff
         mOffice = "";
     }
 
-    public clsStaff(string myFName, string myLName, string myTitle, string myEmail, string myPhone, string myFax, string myOffice)
+    public clsStaff(string myLName, string myFName, string myTitle, string myEmail, string myPhone, string myFax, string myOffice)
     {
-        mFName = myFName;
         mLName = myLName;
+        mFName = myFName;
         mTitle = myTitle;
         mEmail = myEmail;
         mPhone = myPhone;
@@ -37,11 +36,11 @@ public class clsStaff
         mOffice = myOffice;
     }
 
-    public clsStaff(int staffID, string myFName, string myLName, string myTitle, string myEmail, string myPhone, string myFax, string myOffice)
+    public clsStaff(int staffID, string myLName, string myFName, string myTitle, string myEmail, string myPhone, string myFax, string myOffice)
     {
-        mID = staffID;
-        mFName = myFName;
+        mStaffID = staffID;
         mLName = myLName;
+        mFName = myFName;
         mTitle = myTitle;
         mEmail = myEmail;
         mPhone = myPhone;
@@ -52,28 +51,15 @@ public class clsStaff
     // ----------- Accessor methods for data members ----------------
 
     // Purpose: Reads or writes the mName data member.
-    public int ID
+    public int StaffID
     {
         get
         {
-            return mID;
+            return mStaffID;
         }
         set
         {
-            mID = value;
-        }
-    }
-
-    public string FirstName
-    {
-        get
-        {
-            return mFName;
-        }
-
-        set
-        {
-            mFName = value;
+            mStaffID = value;
         }
     }
 
@@ -87,6 +73,19 @@ public class clsStaff
         set
         {
             mLName = value;
+        }
+    }
+
+    public string FirstName
+    {
+        get
+        {
+            return mFName;
+        }
+
+        set
+        {
+            mFName = value;
         }
     }
 
