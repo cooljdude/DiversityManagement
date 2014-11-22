@@ -1,4 +1,4 @@
-﻿partial class frmMain
+﻿partial class frmStaff
 {
     #region Windows Form Designer generated code
 

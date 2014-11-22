@@ -13,17 +13,17 @@ using System.Configuration;          // Added to access app.config data
 // Each staff record includes first name, last name, title, email, phone, fax, and office. Once read, the summary table of all staff and their data 
 // values are displayed. The user can add, delete and update records in the database.
 
-public partial class frmMain : Form
+public partial class frmStaff : Form
 {
     [STAThread]
 
     public static void Main()
     {
-        frmMain main = new frmMain();
-        Application.Run(main);
+        frmStaff staff = new frmStaff();
+        Application.Run(staff);
     }
 
-    public frmMain()
+    public frmStaff()
     {
         InitializeComponent();
     }
