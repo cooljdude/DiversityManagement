@@ -1,0 +1,16 @@
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe.config
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.csprojResolveAssemblyReference.cache
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\frmMain.resources
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.csproj.GenerateResource.Cache
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.pdb
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe
+F:\Alka's Old PC Files\CPT\cpt255\fall2014\assignments\Harriger_Alka_Lab11\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.pdb
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe.config
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.pdb
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.csprojResolveAssemblyReference.cache
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\frmMain.resources
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\obj\x86\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.csproj.GenerateResource.Cache
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.exe
+C:\Users\Brad\Downloads\Lab11Source\CIT255Lab11DBDeleteUpdateByAlkaHarriger\bin\Debug\CIT255Lab11DBDeleteUpdateByAlkaHarriger.pdb
