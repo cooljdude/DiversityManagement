@@ -17,3 +17,6 @@ C:\Users\Hannah\Documents\Fall 2014\CNIT 255\DiversityManagement\Hannah\Staff Fo
 C:\Users\Hannah\Documents\Fall 2014\CNIT 255\DiversityManagement\Hannah\Staff Form\obj\x86\Debug\project template2.csproj.GenerateResource.Cache
 C:\Users\Hannah\Documents\Fall 2014\CNIT 255\DiversityManagement\Hannah\Staff Form\bin\Debug\project template2.exe
 C:\Users\Hannah\Documents\Fall 2014\CNIT 255\DiversityManagement\Hannah\Staff Form\bin\Debug\project template2.pdb
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\Hannah\Staff Form\bin\Debug\project template2.exe.config
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\Hannah\Staff Form\obj\x86\Debug\project template2.exe
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\Hannah\Staff Form\obj\x86\Debug\project template2.pdb
