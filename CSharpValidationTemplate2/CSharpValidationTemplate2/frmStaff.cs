@@ -587,7 +587,7 @@ namespace teamProject
         private void frmStaff_Load(object sender, EventArgs e)
         {
             home.Show();
-            this.Hide();
+            
         }
 
     }

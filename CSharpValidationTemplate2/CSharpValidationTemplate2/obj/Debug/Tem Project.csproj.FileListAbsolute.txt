@@ -7,3 +7,14 @@ c:\users\hannah\documents\visual studio 2013\Projects\CSharpValidationTemplate2\
 c:\users\hannah\documents\visual studio 2013\Projects\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\Tem Project.csproj.GenerateResource.Cache
 c:\users\hannah\documents\visual studio 2013\Projects\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.exe
 c:\users\hannah\documents\visual studio 2013\Projects\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.pdb
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\bin\Debug\teamProject.exe.config
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.exe
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.pdb
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\bin\Debug\teamProject.exe
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\bin\Debug\teamProject.pdb
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\Tem Project.csprojResolveAssemblyReference.cache
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.frmStaff.resources
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.frmSchool.resources
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\frmMain.resources
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\teamProject.frmStudent.resources
+C:\Users\Hannah\Documents\GitHub\DiversityManagement\CSharpValidationTemplate2\CSharpValidationTemplate2\obj\Debug\Tem Project.csproj.GenerateResource.Cache

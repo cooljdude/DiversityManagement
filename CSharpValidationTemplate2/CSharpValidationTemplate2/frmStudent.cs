@@ -486,7 +486,7 @@ namespace teamProject
         private void frmStudent_Load(object sender, EventArgs e)
         {
             home.Show();
-            this.Hide();
+            
         }
 
 

@@ -210,21 +210,21 @@ public partial class frmMain : Form
     {
         frmSchool school = new frmSchool(this);
         school.Show();
-        this.Hide();
+        
     }
 
     private void btnStaff_Click(object sender, EventArgs e)
     {
         frmStaff staff = new frmStaff(this);
         staff.Show();
-        this.Hide();
+        
     }
 
     private void btnStudent_Click(object sender, EventArgs e)
     {
         frmStudent student = new frmStudent(this);
         student.Show();
-        this.Hide();
+        
     }
 
 }
